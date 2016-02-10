@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+
+		<title>John Oksasoglu | Web Design & Development</title>
+		<meta property="og:url" content="http://oksas.net" />
+		<meta property="og:title" content="John Oksasoglu | Web Design & Development" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="I'm a web developer, self-taught through online resources like Free Code Camp." />
+	</head>
+	<body ng-app="PortfolioApp" ng-controller="IndexController">
+		<div id="container">
+			<div id="nav">
+				<a id="logo" href="#/">john<span>.</span>oksasoglu</a>
+				<div id="nav-right">
+					<a href="#/contact/" ng-class="{'is-active-link': path === '/contact/'}">contact</a>
+					<span class="divider">|</span>
+					<a href="#/projects/" ng-class="{'is-active-link': path.indexOf('/projects/') > -1}">projects</a>
+				</div>
+			</div>
+			<div id="stuff" ng-view></div>
+
+		</div>
+
+		<script src="app.module.js"></script>
+		<script src="app.config.js"></script>
+		<script src="IndexController.js"></script>
+		<script src="components/home/HomeController.js"></script>
+		<script src="components/projects/projects.js"></script>
+		<script src="components/projects/ProjectController.js"></script>
+		<script src="components/projects/ProjectsController.js"></script>
+		<script src="components/contact/ContactController.js"></script>
+	</body>
+
+
+</html>

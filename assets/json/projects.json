@@ -1,0 +1,65 @@
+{
+	"nikkihall": {
+		"link": "nikkihall",
+		"title": "Nikki Hall .archi",
+		"description": ["A portfolio website for architecture student Nikki Hall, designed by her and developed by me. My first experience using AngularJS in a project of this size."],
+		"tools": "HTML, CSS, and JavaScript (AngularJS)",
+		"url": "http://nikkihall.archi"
+	},
+	"simon": {
+		"link": "simon",
+		"title": "Simon",
+		"description": ["A recreation of Simon for an assignment on Free Code Camp. Simon gets a little sassy with you if you hit the wrong button, but we all love him anyway."],
+		"tools": "HTML, CSS (SCSS), and JavaScript",
+		"url": "http://codepen.io/oksas/full/jbdMGW/"
+	},
+	"tictactoe": {
+		"link": "tictactoe",
+		"title": "Tic Tac Toe",
+		"description": ["Tic Tac Toe, created for an assignment on Free Code Camp. The AI may or may not be the world's least predictable Tic Tac Toe player. I'll let you find out."],
+		"tools": "HTML, CSS, and JavaScript (AngularJS)",
+		"url": "http://codepen.io/oksas/full/RWMRRo/"
+	},
+	"pomodoro": {
+		"link": "pomodoro",
+		"title": "Pomodoro",
+		"description": ["A customizable pomodoro timer, built in JavaScript. My introduction to JavaScript timing events."],
+		"tools": "HTML, CSS, and JavaScript (jQuery)",
+		"url": "http://codepen.io/oksas/full/vNLPEa/"
+	},
+	"fccnews": {
+		"link": "fccnews",
+		"title": "Free Code Camp News",
+		"description": ["A simple custom interface for Free Code Camp's news feed, built using their API."],
+		"tools": "HTML, CSS (Stylus), and JavaScript (jQuery, Handlebars)",
+		"url": "http://codepen.io/oksas/full/LpLVze/"
+	},
+	"weather": {
+		"link": "weather",
+		"title": "Local Weather",
+		"description": ["A simple app that consumes a weather API to display current weather in a Minecraft-styled interface. The background image changes based on the temperature and time of day."],
+		"tools": "HTML, CSS, and JavaScript (jQuery)",
+		"url": "http://codepen.io/oksas/full/WQvaqw/"
+	},
+	"twitch": {
+		"link": "twitch",
+		"title": "Twitch.tv Channel Display",
+		"description": ["A custom interface for displaying the thumbnail and status of a handful of arbitrary channels on twitch.tv. Uses twitch.tv's API."],
+		"tools": "HTML, CSS, and JavaScript (jQuery)",
+		"url": "http://codepen.io/oksas/full/XmKNQb/"
+	},
+	"randomquote": {
+		"link": "randomquote",
+		"title": "Random Quote Generator",
+		"description": ["A random quote generator. Quotes are fetched from the API of forismatic.com. Includes a handy button to tweet a quote to all your followers!", "Any quote with an unknown author is automatically attributed to Batman, which is probably correct 90% of the time anyway."],
+		"tools": "HTML, CSS (SCSS), and JavaScript (jQuery)",
+		"url": "http://codepen.io/oksas/full/GpRRzQ/"
+	},
+	"wikipedia": {
+		"link": "wikipedia",
+		"title": "Wikipedia Search",
+		"description": ["A custom interface to quickly search Wikipedia. Clicking on a search result will take you to the article itself on Wikipedia."],
+		"tools": "HTML, CSS (SCSS), and JavaScript (AngularJS)",
+		"url": "http://codepen.io/oksas/full/GpyvdK/"
+	}
+}

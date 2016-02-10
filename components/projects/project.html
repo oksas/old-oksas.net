@@ -1,0 +1,15 @@
+<div id="project">
+	<div id="content">
+		<div id="content-inner">
+			<h1>{{ project.title }}</h1>
+			<div class="bar"></div>
+			<div id="description">
+				<p ng-repeat="paragraph in project.description">{{ paragraph }}</p>
+				<p>Built with {{ project.tools }}.</p>
+			</div>
+		<a class="slide-btn" ng-href="{{ project.url }}"><span>visit</span></a>
+		</div>
+	</div><!--
+	--><div id="banner" ng-style="{'background-image': 'url(assets/img/' + project.link + '.png)'}">
+	</div>
+</div>

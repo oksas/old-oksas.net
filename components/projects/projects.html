@@ -1,0 +1,14 @@
+<div id="projects">
+	<div id="content">
+		<div id="content-inner">
+			<p>A list of some of the projects I've created, both large and small. Plenty more coming soon!</p>
+			<p>More of my work can also be found in bite-sized bits on <a href="http://codepen.io/oksas/">my CodePen profile</a>.</p>
+			<a class="content-link" ng-repeat="project in projects" ng-href="#/projects/{{ project.link }}">{{ project.title }}</a>
+		</div>
+	</div><!--
+	--><div id="banner">
+		<div id="message">
+			<span>{{ message }}</span>
+		</div>
+	</div>
+</div>
