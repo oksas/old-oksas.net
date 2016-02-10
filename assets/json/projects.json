@@ -2,15 +2,63 @@
 	"nikkihall": {
 		"link": "nikkihall",
 		"title": "Nikki Hall .archi",
-		"description": ["A portfolio website for architecture student Nikki Hall, designed by her and developed by me. My first experience using AngularJS in a project of this size."],
-		"tools": "HTML, CSS, and JavaScript (AngularJS)",
+		"description": [
+			"Second version of a portfolio website for architecture student Nikki Hall, designed by her and developed by me.",
+			"I opted to make the site static this time rather than use any sort of framework. This choice, combined with my improved development proficiency since version 1, significantly sped up the development process: 99% of the design was completed in the span of an afternoon (though no doubt the simplicity of the design is partly responsible for that)."
+		],
+		"tools": "HTML, CSS, and vanilla JavaScript",
 		"url": "http://nikkihall.archi"
+	},
+	"antoinetteescobar": {
+		"link": "antoinetteescobar",
+		"title": "Antoinette Escobar .archi",
+		"description": [
+			"Portfolio site for architecture student Antoinette Escobar, designed by her and developed by me.",
+			"The straightforward, vertical design greatly simplified the process of making the site responsive, with only minor changes needed between views on small/large displays."
+		],
+		"tools": "HTML, CSS, and vanilla JavaScript",
+		"url": "http://antoinetteescobar.archi"
+	},
+
+	"jessicamcquillen": {
+		"link": "jessicamcquillen",
+		"title": "Jessica McQuillen .archi",
+		"description": [
+			"Portfolio site for architecture student Jessica McQuillen, designed by her and developed by me.",
+			"What I thought would be rather straightforward to develop ended up taking a lot more time than I had anticipated. Sizing and scaling properly based on screen size was initially a large problem, mainly due to the difference in widths of the site's header images, and in general I had some issues getting the layout to behave exactly as desired. ",
+			"The site was originally built with Angular, but after feeling like Angular not providing any benefits (to either the site or myself), I rebuilt the site as static HTML/CSS."
+		],
+		"tools": "HTML, CSS, and JavaScript (jQuery)",
+		"url": "http://jessicamcquillen.archi"
+	},
+	"patrickceguera": {
+		"link": "patrickceguera",
+		"title": "Patrick Ceguera .archi",
+		"description": [
+			"Portfolio site for architecture student Patrick Ceguera, designed by him and developed by me.",
+			"I chose to create the project in Angular to not only give myself more experience with Angular but to also take advantage of routing and templating, which make development quite easy with minimal portfolio sites like this, especially once boilerplate is already configured from previous projects. In hindsight, using Angular was really not necessary; a static site generator like Jekyll, for example, might have been a better fit, though the experience I gained from using Angular was valuable."
+		],
+		"tools": "HTML, CSS, and JavaScript (AngularJS)",
+		"url": "http://patrickceguera.archi"
+	},
+	"nikkihall_old": {
+		"link": "nikkihall_old",
+		"title": "Nikki Hall .archi (v1)",
+		"description": [
+			"First version of a portfolio website for architecture student Nikki Hall, designed by her and developed by me.",
+			"My primary motivation for using Angular here, other than for the sake of experience, was to take advantage of Angular's templating/interpolation and allow essentially the entire site to be loaded based on the contents of a projects.json file. The intent was to simplify the process of adding or updating projects by centralizing all the site's content, but this came at the cost of using Angular when it was really not needed for everything else."
+		],
+		"tools": "HTML, CSS, and JavaScript (AngularJS)",
+		"url": "http://oksas.net/nikkihall.archi_old"
 	},
 	"simon": {
 		"link": "simon",
 		"title": "Simon",
-		"description": ["A recreation of Simon for an assignment on Free Code Camp. Simon gets a little sassy with you if you hit the wrong button, but we all love him anyway."],
-		"tools": "HTML, CSS (SCSS), and JavaScript",
+		"description": [
+			"A recreation of Simon for an assignment on Free Code Camp. Simon gets a little sassy with you if you hit the wrong button, but we all love him anyway.",
+			"The design deviates somewhat significantly from that of Simon traditionally, but I knew from the outset that I wanted something that looked less like an actual Simon toy and more like a modern interface (though perhaps, deep down, this was really just an attempt to make Simon seem like more interesting of a game than it actually is)."
+		],
+		"tools": "HTML, CSS (Sass), and vanilla JavaScript",
 		"url": "http://codepen.io/oksas/full/jbdMGW/"
 	},
 	"tictactoe": {
@@ -27,17 +75,10 @@
 		"tools": "HTML, CSS, and JavaScript (jQuery)",
 		"url": "http://codepen.io/oksas/full/vNLPEa/"
 	},
-	"fccnews": {
-		"link": "fccnews",
-		"title": "Free Code Camp News",
-		"description": ["A simple custom interface for Free Code Camp's news feed, built using their API."],
-		"tools": "HTML, CSS (Stylus), and JavaScript (jQuery, Handlebars)",
-		"url": "http://codepen.io/oksas/full/LpLVze/"
-	},
 	"weather": {
 		"link": "weather",
 		"title": "Local Weather",
-		"description": ["A simple app that consumes a weather API to display current weather in a Minecraft-styled interface. The background image changes based on the temperature and time of day."],
+		"description": ["A simple 'app' that consumes a weather API to display current weather in a Minecraft-styled interface. The background image changes based on the temperature and time of day."],
 		"tools": "HTML, CSS, and JavaScript (jQuery)",
 		"url": "http://codepen.io/oksas/full/WQvaqw/"
 	},
@@ -51,15 +92,18 @@
 	"randomquote": {
 		"link": "randomquote",
 		"title": "Random Quote Generator",
-		"description": ["A random quote generator. Quotes are fetched from the API of forismatic.com. Includes a handy button to tweet a quote to all your followers!", "Any quote with an unknown author is automatically attributed to Batman, which is probably correct 90% of the time anyway."],
-		"tools": "HTML, CSS (SCSS), and JavaScript (jQuery)",
+		"description": [
+			"A random quote generator, with quotes fetched from the API of forismatic.com. Includes a handy button to tweet a quote to all your followers! Any quote with an unknown author is automatically attributed to Batman, which is probably correct 90% of the time anyway.",
+			"This project was my first time using an external web API, which had me utterly, completely confused at first (what's a CORS, anyway??), but I powered through it and became a ninja master in the end."
+		],
+		"tools": "HTML, CSS (Sass), and JavaScript (jQuery)",
 		"url": "http://codepen.io/oksas/full/GpRRzQ/"
 	},
 	"wikipedia": {
 		"link": "wikipedia",
 		"title": "Wikipedia Search",
 		"description": ["A custom interface to quickly search Wikipedia. Clicking on a search result will take you to the article itself on Wikipedia."],
-		"tools": "HTML, CSS (SCSS), and JavaScript (AngularJS)",
+		"tools": "HTML, CSS (Sass), and JavaScript (AngularJS)",
 		"url": "http://codepen.io/oksas/full/GpyvdK/"
 	}
 }
