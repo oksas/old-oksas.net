@@ -55,7 +55,7 @@
 		"link": "oksas",
 		"title": "oksas.net",
 		"description": [
-			"My own personal portfolio site (which you might have seen once or twice before). Will likely eventually become a static site, but Angular does the trick for now."
+			"My own personal portfolio site (which you may have seen once or twice before). Will likely eventually become a static site, but Angular does the trick for now."
 		],
 		"tools": "HTML, CSS (Sass), and JavaScript (AngularJS)",
 		"url": "http://oksas.net"
