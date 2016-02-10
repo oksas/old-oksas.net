@@ -4,24 +4,24 @@
 body {
   background-color: #FFF;
   font-family: 'Raleway', sans-serif;
-  color: #000; }
+  color: #020202; }
 
 a {
-  color: #000;
+  color: #020202;
   font-weight: 800; }
 
 a,
 a:hover,
 a:visited {
   cursor: pointer;
-  color: #000;
+  color: #020202;
   text-decoration: none;
   border-bottom: none; }
 
 a:hover,
 a:active,
 a:focus {
-  border-bottom: 0.188em solid #000; }
+  border-bottom: 0.188em solid #020202; }
 
 a.is-active-link {
   color: #FF1C2E;
@@ -99,14 +99,14 @@ p {
         margin-right: 0; } }
   #content h1 {
     text-transform: uppercase;
-    color: #000;
+    color: #020202;
     font-size: 3em;
     line-height: 1em;
     margin: 0;
     margin-bottom: 0.5em; }
 
 .bar {
-  background-color: #000;
+  background-color: #020202;
   width: 4em;
   height: 0.5em; }
 
@@ -130,7 +130,7 @@ p {
   height: 3.2em;
   line-height: 3.2em;
   border: none;
-  background-image: linear-gradient(to right, #FF1C2E 50%, #000 50%);
+  background-image: linear-gradient(to right, #FF1C2E 50%, #020202 50%);
   background-size: 200% 100%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -145,7 +145,7 @@ p {
 
 #banner {
   position: relative;
-  background-color: #000;
+  background-color: #020202;
   background-size: 100%;
   width: 45em;
   height: 24em; }

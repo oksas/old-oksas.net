@@ -1,12 +1,12 @@
 $bgcolor: #FFF;
-$textcolor: #000;
+$textcolor: #020202;
 $accentcolor: #FF1C2E;
 
 $containerw: 64em;
 
 $logoh: 2.4em;
 $logobgcolor: #FFF;
-$logocolor: #000;
+$logocolor: #020202;
 
 $contentw: 19em;
 $contenth: 24em;
@@ -14,7 +14,7 @@ $contentbgcolor: #FFF;
 
 $bannerw: $containerw - $contentw;
 $bannerh: 24em;
-$bannerbgcolor: #000;
+$bannerbgcolor: #020202;
 
 $navh: 1.4em;
 $navbgcolor: #FFF;
@@ -126,11 +126,11 @@ p {
 		}
 	}
 }
-$contentheadercolor: #000;
+$contentheadercolor: #020202;
 $contentheadersize: 3em;
 $contentpaddingt: 0em;
 $contentpaddingr: 2em;
-$barbgcolor: #000;
+$barbgcolor: #020202;
 $barw: 4em;
 $barh: 0.5em;
 #content {
@@ -195,7 +195,7 @@ $slidebtnbsize: 3px;
 	line-height: $slidebtnh;
 	border: none;
 	//margin: 0 auto;
-	background-image: linear-gradient(to right, $accentcolor 50%, #000 50%);
+	background-image: linear-gradient(to right, $accentcolor 50%, #020202 50%);
 	background-size: 200% 100%;
 	background-repeat: no-repeat;
 	background-position: bottom right;

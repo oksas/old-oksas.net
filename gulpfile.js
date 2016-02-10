@@ -2,12 +2,14 @@
 
 var gulp = require("gulp");
 var connect = require("gulp-connect");
+var sass = require("gulp-sass");
 
 var config = {
   port: 9999,
   devBaseUrl: "http://localhost",
   paths: {
-    html: "./index.html"
+    html: "./index.html",
+    sass: "./sass/*.scss"
   }
 };
 
@@ -19,12 +21,19 @@ gulp.task("connect", function() {
   });
 });
 
+gulp.task("sass", function() {
+  return gulp.src("./sass/*.scss")
+    .pipe(sass().on("error", sass.logError))
+    .pipe(gulp.dest("./"));
+});
+
 gulp.task("reload", function() {
   connect.reload();
 });
 
 gulp.task("watch", function() {
   gulp.watch(config.paths.html, ["reload"]);
+  gulp.watch(config.paths.sass, ["sass", "reload"]);
 });
 
-gulp.task("default", ["connect", "watch"]);
+gulp.task("default", ["sass", "connect", "watch"]);
