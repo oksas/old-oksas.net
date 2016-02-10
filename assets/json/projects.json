@@ -41,16 +41,6 @@
 		"tools": "HTML, CSS, and JavaScript (AngularJS)",
 		"url": "http://patrickceguera.archi"
 	},
-	"nikkihall_old": {
-		"link": "nikkihall_old",
-		"title": "Nikki Hall .archi (v1)",
-		"description": [
-			"First version of a portfolio website for architecture student Nikki Hall, designed by her and developed by me.",
-			"My primary motivation for using Angular here, other than for the sake of experience, was to take advantage of Angular's templating/interpolation and allow essentially the entire site to be loaded based on the contents of a projects.json file. The intent was to simplify the process of adding or updating projects by centralizing all the site's content, but this came at the cost of using Angular when it was really not needed for everything else."
-		],
-		"tools": "HTML, CSS, and JavaScript (AngularJS)",
-		"url": "http://oksas.net/nikkihall.archi_old"
-	},
 	"simon": {
 		"link": "simon",
 		"title": "Simon",
@@ -61,10 +51,29 @@
 		"tools": "HTML, CSS (Sass), and vanilla JavaScript",
 		"url": "http://codepen.io/oksas/full/jbdMGW/"
 	},
+	"oksas": {
+		"link": "oksas",
+		"title": "oksas.net",
+		"description": [
+			"My own personal portfolio site (which you might have seen once or twice before). Will likely eventually become a static site, but Angular does the trick for now."
+		],
+		"tools": "HTML, CSS (Sass), and JavaScript (AngularJS)",
+		"url": "http://oksas.net"
+	},
+	"nikkihall_old": {
+		"link": "nikkihall_old",
+		"title": "Nikki Hall .archi (v1)",
+		"description": [
+			"First version of a portfolio website for architecture student Nikki Hall, designed by her and developed by me.",
+			"My primary motivation for using Angular here, other than for the sake of experience, was to take advantage of Angular's templating and allow essentially the entire site to be loaded based on the contents of a projects.json file. The intent was to simplify the process of adding or updating projects by centralizing all the site's content, but this came at the cost of using Angular when it was really not needed for everything else."
+		],
+		"tools": "HTML, CSS, and JavaScript (AngularJS)",
+		"url": "http://oksas.net/nikkihall.archi_old"
+	},
 	"tictactoe": {
 		"link": "tictactoe",
 		"title": "Tic Tac Toe",
-		"description": ["Tic Tac Toe, created for an assignment on Free Code Camp. The AI may or may not be the world's least predictable Tic Tac Toe player. I'll let you find out."],
+		"description": ["Tic Tac Toe, created for an assignment on Free Code Camp. The AI may or may not be the world's least predictable Tic Tac Toe player; I'll let you find out."],
 		"tools": "HTML, CSS, and JavaScript (AngularJS)",
 		"url": "http://codepen.io/oksas/full/RWMRRo/"
 	},

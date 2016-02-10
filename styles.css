@@ -173,7 +173,3 @@ p {
     @media screen and (max-width: 50em) {
       #message span {
         font-size: 3em; } }
-
-@media screen and (max-width: 64em) {
-  body {
-    font-size: 32px; } }
